@@ -1,0 +1,33 @@
+
+
+#para-1{
+  background-color: aquamarine;
+ 
+   text-align:center;
+   line-height: 2.5rem;
+   /* letter-spacing: 5px; */
+   word-spacing: 10px;
+   color: red;
+   /* text-decoration:overline; */
+   font-size: 25px;
+   /* font-style: ; */
+   /* text-transform:lowercase; */
+   text-indent: 100px;
+   text-align: justify;
+   font-family: "Jacquard 24", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#para-2{
+  background-color: rgb(222, 214, 60);  
+}
+
+#para-3{
+   background-color: brown; 
+}
+
+#para-4{
+    background-color: chartreuse;
+}
+
