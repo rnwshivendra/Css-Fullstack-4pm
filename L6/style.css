@@ -1,0 +1,47 @@
+/* #descendant a{
+   color: rgb(25, 208, 12);
+    text-decoration: none;
+}
+
+#child>a{
+    color: rgb(25, 208, 12);
+     text-decoration: none;
+ }
+
+
+#child ~ div{
+    background-color: aquamarine;
+} */
+
+/* div{
+    border: 1px solid #000;
+}
+
+#box-1~p{
+    background-color: #000;
+    color: red;
+}
+
+p::first-line{
+    color: blue;
+    font-size: 2rem;
+} */
+
+#cont>div{
+    border: 1px solid #000;
+}
+
+/* #cont>div:last-child{
+    font-weight: bold;
+} */
+
+
+/* #cont>div:nth-child(1){
+    font-weight: bold;
+    background-color: blueviolet;
+} */
+
+#cont>div:nth-last-child(5)::selection{
+   user-select: none;
+}
+
