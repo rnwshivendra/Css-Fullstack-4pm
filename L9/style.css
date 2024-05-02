@@ -1,0 +1,21 @@
+#main{
+    height: 600px;
+    width: 600px;
+    border: 1px solid #000;
+    display: flex;
+flex-direction: column;
+border: 3px solid #c10b0b;
+/* flex-wrap:wrap-reverse; */
+/* flex-flow: column wrap; */
+/* justify-content:center ; */
+align-items:center ;
+
+
+}
+
+
+#main>div{
+    height: 200px;
+    width: 200px;
+    border: 1px solid #000;
+}

@@ -1,0 +1,32 @@
+#main{
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+   
+}
+
+#main:hover{
+ 
+   background-color: rebeccapurple;
+   width: 600px;
+    transition: background-color 5s, width 5s;
+    transition-delay: 10s;
+    transition-timing-function: ease-out;
+}
+
+#txt::before{
+    content: open-quote;
+    color: red;
+   position: relative;
+   bottom: 10px;
+ }
+#txt::after{
+   content: close-quote;
+   color: red;
+}
+
+input:focus{
+    outline: none;
+   background-color: red;
+
+}

@@ -1,0 +1,28 @@
+
+#main{
+    
+  
+    height: 500px;
+    display: flex;
+    /* flex-direction: column;
+    justify-content: center; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    border: 1px solid #000;
+    flex-wrap: wrap;
+    flex-flow: column wrap;
+}
+
+#main>div{
+    height: 200px;
+    width: 200px;
+    border: 1px solid #000;
+}
+
+#main>div:first-child{
+    
+    background-color: blueviolet;
+ 
+}
+
+
